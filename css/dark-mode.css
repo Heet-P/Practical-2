@@ -14,13 +14,7 @@ body.dark-mode {
     --glow-white: rgba(255, 255, 255, 0.15);
 }
 
-body.dark-mode .dark-icon {
-    display: none;
-}
 
-body.dark-mode .light-icon {
-    display: inline-block;
-}
 
 /* Dark mode specific adjustments */
 body.dark-mode .timeline-track {
