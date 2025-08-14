@@ -16,13 +16,26 @@ function initNavigation() {
     // Toggle mobile menu
     navToggle.addEventListener('click', () => {
         navMenu.classList.toggle('active');
+        // Prevent body scrolling when menu is open
+        document.body.classList.toggle('menu-open');
     });
 
     // Close mobile menu when a link is clicked
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             navMenu.classList.remove('active');
+            document.body.classList.remove('menu-open');
         });
+    });
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (navMenu.classList.contains('active') && 
+            !navMenu.contains(e.target) && 
+            !navToggle.contains(e.target)) {
+            navMenu.classList.remove('active');
+            document.body.classList.remove('menu-open');
+        }
     });
 
     // Add active class to nav links on scroll

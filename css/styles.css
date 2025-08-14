@@ -34,6 +34,10 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+body.menu-open {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -153,6 +157,7 @@ img {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 0 15px var(--glow-white);
     transition: all 0.3s ease;
     border-bottom: 2px solid rgba(255, 138, 101, 0.3);
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar .container {
@@ -162,7 +167,7 @@ img {
     padding: 15px;
 }
 
-.logo {
+.nav-brand {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--accent);
@@ -177,6 +182,7 @@ img {
     font-weight: 500;
     position: relative;
     padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nav-link::after {
@@ -214,12 +220,21 @@ img {
     transition: all 0.3s ease;
 }
 
-.light-mode .dark-icon {
+/* Fix for theme toggle icons */
+.dark-icon {
     display: inline-block;
 }
 
-.light-mode .light-icon {
+.light-icon {
     display: none;
+}
+
+body.dark-mode .dark-icon {
+    display: none;
+}
+
+body.dark-mode .light-icon {
+    display: inline-block;
 }
 
 /* Introduction Section */
@@ -626,19 +641,25 @@ input:focus, textarea:focus {
         align-items: center;
         padding: 20px 0;
         gap: 15px;
-        transform: translateY(-100%);
+        transform: translateY(-150%);
         opacity: 0;
+        visibility: hidden;
         transition: all 0.3s ease;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        z-index: 999;
     }
     
     .nav-menu.active {
         transform: translateY(0);
         opacity: 1;
+        visibility: visible;
     }
     
     .nav-toggle {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
     }
     
     .timeline-content {
