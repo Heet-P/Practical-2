@@ -1,0 +1,16 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#F7DF1E" rx="10" ry="10"/>
+  
+  <!-- JavaScript Symbol -->
+  <text x="150" y="100" font-family="monospace" font-size="60" fill="#333" text-anchor="middle" font-weight="bold">JS</text>
+  
+  <!-- Code Snippet -->
+  <text x="150" y="150" font-family="monospace" font-size="16" fill="#333" text-anchor="middle">function hello() { alert('Hello!'); }</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="20" fill="#333" fill-opacity="0.1"/>
+  <circle cx="250" cy="50" r="20" fill="#333" fill-opacity="0.1"/>
+  <circle cx="50" cy="150" r="20" fill="#333" fill-opacity="0.1"/>
+  <circle cx="250" cy="150" r="20" fill="#333" fill-opacity="0.1"/>
+</svg>

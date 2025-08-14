@@ -1,0 +1,13 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#FF8A65" rx="10" ry="10"/>
+  
+  <!-- HTML Tag Symbols -->
+  <text x="30" y="80" font-family="monospace" font-size="40" fill="white">&lt;html&gt;</text>
+  <text x="60" y="120" font-family="monospace" font-size="30" fill="white">&lt;body&gt;</text>
+  <text x="90" y="160" font-family="monospace" font-size="20" fill="white">&lt;h1&gt;HTML Basics&lt;/h1&gt;</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="250" cy="50" r="20" fill="white" fill-opacity="0.3"/>
+  <circle cx="220" cy="30" r="10" fill="white" fill-opacity="0.2"/>
+</svg>

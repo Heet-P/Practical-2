@@ -1,0 +1,49 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    --background: #121212;
+    --text-primary: #FFFFFF;
+    --text-secondary: #B0B0B0;
+    --accent: #ff9900fd;
+    --glass-background: rgba(18, 18, 18, 0.25);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.25);
+    --highlight: #1E1E1E;
+    --shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    --card-background: rgba(30, 30, 30, 0.7);
+    --navbar-background: rgba(18, 18, 18, 0.8);
+    --glow-accent: rgb(255, 238, 0.7); 
+    --glow-white: rgba(255, 255, 255, 0.15);
+}
+
+body.dark-mode .dark-icon {
+    display: none;
+}
+
+body.dark-mode .light-icon {
+    display: inline-block;
+}
+
+/* Dark mode specific adjustments */
+body.dark-mode .timeline-track {
+    background-color: var(--accent);
+    opacity: 0.5;
+    box-shadow: 0 0 5px var(--glow-accent);
+}
+
+body.dark-mode input {
+    background-color: rgba(30, 30, 30, 0.5);
+    border-color: #333333;
+    color: var(--text-primary);
+}
+
+body.dark-mode .btn.secondary {
+    background-color: rgba(30, 30, 30, 0.6);
+}
+
+body.dark-mode .btn.secondary:hover {
+    background-color: rgba(40, 40, 40, 0.7);
+}
+
+/* Dark mode transition */
+body, body * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal WDF Lab Dashboard</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/dark-mode.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">WDF Dashboard</div>
+            <div class="nav-toggle">
+                <span class="material-symbols-rounded">menu</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#introduction" class="nav-link">Home</a></li>
+                <li><a href="#animated_timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#dashboard_professor_view" class="nav-link">Dashboard</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="material-symbols-rounded light-icon">light_mode</span>
+                <span class="material-symbols-rounded dark-icon">dark_mode</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="section">
+        <div class="container">
+            <div class="intro-content">
+                <div class="profile-image">
+                    <img src="./assets/images/profile.jpg" alt="Profile Picture" id="profile-pic">
+                </div>
+                <h1 class="intro-title">Hi, I'm <span class="accent-text">Heet Parikh</span></h1>
+                <p class="intro-description">Web Development FrameWorks Lab Practical Dashboard</p>
+                <div class="intro-buttons">
+                    <a href="#animated_timeline" class="btn primary">View Timeline</a>
+                    <a href="#dashboard_professor_view" class="btn secondary">Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Timeline Section -->
+    <section id="animated_timeline" class="section">
+        <div class="container">
+            <h2 class="section-title">Practical Timeline</h2>
+            <div class="timeline-container">
+                <div class="timeline-track">
+                    <div class="timeline-ball"></div>
+                </div>
+                <div class="timeline-items">
+                    <!-- Timeline items will be dynamically generated here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Professor View Section -->
+    <section id="dashboard_professor_view" class="section">
+        <div class="container">
+            <h2 class="section-title">Practicals Dashboard</h2>
+            <div class="dashboard-grid">
+                <!-- Dashboard cards will be dynamically generated here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="material-symbols-rounded">mail</span>
+                        <p>24cs058@@charusa.edu.in</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-symbols-rounded">phone</span>
+                        <p>+91 9227011606</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="material-symbols-rounded">location_on</span>
+                        <p>Dept. Of Computer Science & Engineering, CSPIT-CHARUSAT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal for Professor Access -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Professor Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+                </div>
+                <button type="submit" class="btn primary">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 WDF Lab Dashboard. All rights reserved.</p>
+            <button id="professor-login-btn" class="btn text">Professor Login</button>
+            <button id="logout-btn" class="btn text" style="display: none;" aria-label="Logout">Logout</button>
+        </div>
+    </footer>
+
+    <!-- Supabase JS library (commented out until you're ready to integrate) -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script> -->
+    <!-- <script src="./js/supabase.js"></script> -->
+    
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <script src="./js/timeline.js"></script>
+    <script src="./js/dashboard.js"></script>
+    <script src="./js/dark-mode.js"></script>
+    <script src="./js/graph-animation.js"></script>

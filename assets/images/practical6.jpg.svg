@@ -1,0 +1,28 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#2196F3" rx="10" ry="10"/>
+  
+  <!-- API Connection Visualization -->
+  <rect x="30" y="70" width="80" height="60" fill="white" fill-opacity="0.9" rx="5" ry="5"/>
+  <text x="70" y="105" font-family="sans-serif" font-size="12" fill="#333" text-anchor="middle">Client</text>
+  
+  <rect x="190" y="70" width="80" height="60" fill="white" fill-opacity="0.9" rx="5" ry="5"/>
+  <text x="230" y="105" font-family="sans-serif" font-size="12" fill="#333" text-anchor="middle">API</text>
+  
+  <!-- Connection Arrows -->
+  <path d="M110 90 L190 90" stroke="white" stroke-width="3" stroke-dasharray="5,3"/>
+  <polygon points="185,85 190,90 185,95" fill="white"/>
+  
+  <path d="M190 110 L110 110" stroke="white" stroke-width="3" stroke-dasharray="5,3"/>
+  <polygon points="115,105 110,110 115,115" fill="white"/>
+  
+  <!-- Request/Response Labels -->
+  <text x="150" y="85" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">GET /data</text>
+  <text x="150" y="125" font-family="sans-serif" font-size="10" fill="white" text-anchor="middle">{ "data": [...] }</text>
+  
+  <!-- JSON Data -->
+  <text x="150" y="160" font-family="monospace" font-size="12" fill="white" text-anchor="middle">{"status":"success","data":[...]}</text>
+  
+  <!-- Title -->
+  <text x="150" y="40" font-family="sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">API Integration</text>
+</svg>

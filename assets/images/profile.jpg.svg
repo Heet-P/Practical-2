@@ -1,0 +1,15 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#E0E0E0"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="85" r="40" fill="#A0A0A0"/>
+  
+  <!-- Body -->
+  <path d="M100 130 L100 190 Q60 180 60 150 L60 130 Q80 140 100 130 Q120 140 140 130 L140 150 Q140 180 100 190" fill="#A0A0A0"/>
+  
+  <!-- Face -->
+  <circle cx="85" cy="75" r="5" fill="#606060"/>
+  <circle cx="115" cy="75" r="5" fill="#606060"/>
+  <path d="M85 100 Q100 110 115 100" fill="none" stroke="#606060" stroke-width="3" stroke-linecap="round"/>
+</svg>

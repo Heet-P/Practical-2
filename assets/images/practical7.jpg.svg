@@ -1,0 +1,24 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0" rx="15" ry="15"/>
+  
+  <!-- Responsive Design Illustration -->
+  <rect x="50" y="50" width="300" height="200" fill="#e1e1e1" rx="10" ry="10" stroke="#999" stroke-width="2"/>
+  
+  <!-- Desktop -->
+  <rect x="70" y="80" width="160" height="100" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Tablet -->
+  <rect x="250" y="100" width="80" height="120" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Mobile -->
+  <rect x="150" y="200" width="40" height="70" fill="#fff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="200" y="40" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#333" font-weight="bold">Responsive Web Design</text>
+  
+  <!-- Labels -->
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Desktop</text>
+  <text x="290" y="160" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">Tablet</text>
+  <text x="170" y="235" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">Mobile</text>
+</svg>
