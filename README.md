@@ -49,8 +49,8 @@ A personal portfolio and WDF (Web Development and Framework) practical dashboard
 
 ## Professor Login (Demo)
 
-- Email: professor@example.com
-- Password: password123
+- Email: in-progress
+- Password: admin123
 
 ## Customization
 
@@ -73,4 +73,4 @@ This project is available for personal and educational use.
 
 ## Author
 
-[Your Name]
+[Heet Parikh]
