@@ -50,16 +50,16 @@ function getSampleTimelineData() {
         },
         {
             id: 2,
-            date: '2023-09-12',
+            date: '2025-07-07',
             title: 'CSS Styling Practical',
             description: 'Applied CSS3 styling to create a responsive layout with flexbox and grid.',
-            image: './assets/images/practical2.jpg',
+            image: './assets/images/practical2.png',
             demoUrl: '#',
-            pdfUrl: '#'
+            pdfUrl: './assets/pdfs/24CS058_WDFPrac2.pdf' 
         },
         {
             id: 3,
-            date: '2023-09-19',
+            date: '2025-09-19',
             title: 'JavaScript Basics',
             description: 'Implemented interactive features using vanilla JavaScript.',
             image: './assets/images/practical3.jpg',
@@ -68,7 +68,7 @@ function getSampleTimelineData() {
         },
         {
             id: 4,
-            date: '2023-09-26',
+            date: '2025-09-26',
             title: 'DOM Manipulation',
             description: 'Created dynamic content by manipulating the DOM with JavaScript.',
             image: './assets/images/practical4.jpg',
@@ -77,7 +77,7 @@ function getSampleTimelineData() {
         },
         {
             id: 5,
-            date: '2023-10-03',
+            date: '2025-10-03',
             title: 'Form Validation',
             description: 'Implemented client-side form validation using JavaScript.',
             image: './assets/images/practical5.jpg',
@@ -86,7 +86,7 @@ function getSampleTimelineData() {
         },
         {
             id: 6,
-            date: '2023-10-10',
+            date: '2025-10-10',
             title: 'API Integration',
             description: 'Connected to external APIs to fetch and display data.',
             image: './assets/images/practical6.jpg',
@@ -95,7 +95,7 @@ function getSampleTimelineData() {
         },
         {
             id: 7,
-            date: '2023-10-17',
+            date: '2025-10-17',
             title: 'Responsive Web Design',
             description: 'Created a fully responsive website that adapts to different screen sizes.',
             image: './assets/images/practical1.jpg',
@@ -104,7 +104,7 @@ function getSampleTimelineData() {
         },
         {
             id: 8,
-            date: '2023-10-24',
+            date: '2025-10-24',
             title: 'CSS Animations',
             description: 'Implemented complex animations and transitions using CSS3.',
             image: './assets/images/practical2.jpg',
@@ -113,7 +113,7 @@ function getSampleTimelineData() {
         },
         {
             id: 9,
-            date: '2023-10-31',
+            date: '2025-10-31',
             title: 'Local Storage',
             description: 'Built a web application that persists data using browser local storage.',
             image: './assets/images/practical3.jpg',
@@ -122,7 +122,7 @@ function getSampleTimelineData() {
         },
         {
             id: 10,
-            date: '2023-11-07',
+            date: '2025-11-07',
             title: 'Fetch API',
             description: 'Used the Fetch API to retrieve and display data from external sources.',
             image: './assets/images/practical4.jpg',
@@ -131,7 +131,7 @@ function getSampleTimelineData() {
         },
         {
             id: 11,
-            date: '2023-11-14',
+            date: '2025-11-14',
             title: 'ES6 Features',
             description: 'Implemented modern JavaScript features including arrow functions, destructuring, and modules.',
             image: './assets/images/practical5.jpg',
@@ -140,7 +140,7 @@ function getSampleTimelineData() {
         },
         {
             id: 12,
-            date: '2023-11-21',
+            date: '2025-11-21',
             title: 'Async/Await',
             description: 'Built asynchronous functionality using async/await patterns.',
             image: './assets/images/practical6.jpg',
@@ -149,7 +149,7 @@ function getSampleTimelineData() {
         },
         {
             id: 13,
-            date: '2023-11-28',
+            date: '2025-11-28',
             title: 'CSS Grid Layout',
             description: 'Created complex grid-based layouts using CSS Grid.',
             image: './assets/images/practical1.jpg',
@@ -158,7 +158,7 @@ function getSampleTimelineData() {
         },
         {
             id: 14,
-            date: '2023-12-05',
+            date: '2025-12-05',
             title: 'Web Accessibility',
             description: 'Implemented accessibility features to make web content more inclusive.',
             image: './assets/images/practical2.jpg',
@@ -167,7 +167,7 @@ function getSampleTimelineData() {
         },
         {
             id: 15,
-            date: '2023-12-12',
+            date: '2025-12-12',
             title: 'Final Project',
             description: 'Comprehensive web application showcasing all learned skills and techniques.',
             image: './assets/images/practical3.jpg',
