@@ -41,12 +41,12 @@ function getSampleTimelineData() {
     return [
         {
             id: 1,
-            date: '2023-09-05',
-            title: 'HTML Basics Practical',
-            description: 'Created a simple webpage using semantic HTML5 elements.',
-            image: './assets/images/practical1.jpg',
-            demoUrl: '#',
-            pdfUrl: '#'
+            date: '2025-06-25',
+            title: 'HTML Basics Practical - 1',
+            description: 'Created a simple webpage using basic HTML5 elements and some styling',
+            image: './assets/images/practical1.png',
+            demoUrl: 'http://heetparikh.me/Practical-1',
+            pdfUrl: './assets/pdf/24CS058_WDFPrac1.pdf'
         },
         {
             id: 2,
