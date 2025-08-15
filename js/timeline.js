@@ -46,7 +46,7 @@ function getSampleTimelineData() {
             description: 'Created a simple webpage using basic HTML5 elements and some styling',
             image: './assets/images/practical1.png',
             demoUrl: 'http://heetparikh.me/Practical-1',
-            pdfUrl: './assets/pdf/24CS058_WDFPrac1.pdf'
+            pdfUrl: './assets/pdfs/24CS058_WDFPrac1.pdf'
         },
         {
             id: 2,
