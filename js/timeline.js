@@ -192,15 +192,18 @@ function renderTimelineItems(items) {
         
         timelineItem.innerHTML = `
             <div class="timeline-content">
-                <div class="timeline-date">${formattedDate}</div>
-                <h3 class="timeline-title">${item.title}</h3>
-                <p class="timeline-description">${item.description}</p>
-                <div class="timeline-image">
-                    <img src="${item.image}" alt="${item.title}" loading="lazy">
-                </div>
-                <div class="card-buttons">
-                    <a href="${item.demoUrl}" class="btn primary" target="_blank">Live Demo</a>
-                    <a href="${item.pdfUrl}" class="btn secondary" download>Download PDF</a>
+                <div class="timeline-date-capsule">${formattedDate}</div>
+                <div class="timeline-full-content">
+                    <div class="timeline-date">${formattedDate}</div>
+                    <h3 class="timeline-title">${item.title}</h3>
+                    <p class="timeline-description">${item.description}</p>
+                    <div class="timeline-image">
+                        <img src="${item.image}" alt="${item.title}" loading="lazy">
+                    </div>
+                    <div class="card-buttons">
+                        <a href="${item.demoUrl}" class="btn primary" target="_blank">Live Demo</a>
+                        <a href="${item.pdfUrl}" class="btn secondary" download>Download PDF</a>
+                    </div>
                 </div>
             </div>
         `;
